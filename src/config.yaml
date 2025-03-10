@@ -1,9 +1,9 @@
 llm:
-  embedding_model:
-    model_name: "text-embedding-nomic-embed-text-v1.5@q5_0"
   llm_model:
-    model_name: "llama-3.3-70b-instruct"
+    model_name: "gpt-4o-mini"
+    temperature: 0
+  embedding_model:
+    model_name: "text-embedding-3-small"
 
-local_deployment_api:
-  api_key: "lm_studio"
-  api_base: "http://127.0.0.1:1234/v1"
+documents:
+  file_path: "../data/LLM Powered Autonomous Agents.pdf"

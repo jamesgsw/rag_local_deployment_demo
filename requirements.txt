@@ -1,8 +1,6 @@
-bs4
+pypdf
 langgraph
 langchain-openai
 langchain_chroma
 langchain_community
-langchain_huggingface
-sentence-transformers
 langchain_text_splitters
